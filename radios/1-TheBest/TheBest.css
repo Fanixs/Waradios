@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background: black;
+}
+
+.back {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 50px;
+    line-height: 1.6;
+    color: white;
+    margin-top: 180px;
+    margin-left: 180px;
+    background: black;
+}
+
+.img {
+    margin-left: 185px;
+    border-radius: 20px;
+}
+
+.play {
+    margin-top: 80px;
+    margin-left: 370px;
+    width: 200px;
+    height: 200px;
+}
+
+.audio {
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 240px;
+}
