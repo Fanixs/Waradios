@@ -20,7 +20,14 @@
         <img class="img" src="img/3.jpg" alt="Comedy Radio" width="600" height="600">
     </div>
 
-    <audio class="audio" src="http://ic7.101.ru:8000/s60" controls></audio>
+    <div>
+        <audio id="audio">
+            <source src="http://ic7.101.ru:8000/s60">
+        </audio>
+        <button id="playPauseBTN" onclick="playPause()">▷</button>
+    </div>
+
+    <script src="comedy.js"></script>
 
     <p class="site">
         <a href="https://comedy-radio.ru/" target="_blank" style="
