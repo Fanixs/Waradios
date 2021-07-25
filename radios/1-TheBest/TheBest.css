@@ -34,7 +34,9 @@ button{
 	text-align: center;
 	background: black;
 	color: #fff;
-	height: 200px;
+	border-radius: 5px;
+	border:0px;
+	height: 120px;
     margin-top: 200px;
     margin-left: 330px;
 }

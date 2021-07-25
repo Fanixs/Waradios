@@ -10,7 +10,7 @@ function playPause(){
 	}else{
 		count = 0;
 		audio.pause();
-		playPauseBTN.innerHTML = "►";
+		playPauseBTN.innerHTML = "▷";
 	}
 
 }
@@ -19,6 +19,6 @@ function stop(){
 	playPause()
 	audio.pause();
 	audio.currentTime = 0;
-	playPauseBTN.innerHTML = "►";
+	playPauseBTN.innerHTML = "▷";
 }
 
