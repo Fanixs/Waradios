@@ -26,18 +26,20 @@ h1 {
     border-radius: 20px;
 }
 
-.play {
-    margin-top: 80px;
-    margin-left: 370px;
-    width: 200px;
-    height: 200px;
-}
-
-.audio {
-    width: 500px;
-    height: 100px;
-    margin-top: 20px;
-    margin-left: 240px;
+button{
+	padding: 10px 25px;
+	font-size: 100px;
+	line-height: 60px;
+	min-width: 300px;
+	text-align: center;
+	cursor: pointer;
+	background: black;
+	color: #fff;
+	border-radius: 5px;
+	border:0px;
+	height: 100px;
+    margin-top: 200px;
+    margin-left: 310px;
 }
 
 .site {
