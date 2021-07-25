@@ -20,7 +20,14 @@
         <img class="img" src="img/4.jpg" alt="Mayak" width="600" height="600">
     </div>
 
-    <audio class="audio" src="https://icecast-vgtrk.cdnvideo.ru/mayakfm_mp3_128kbps" controls></audio>
+    <div>
+        <audio id="audio">
+            <source src="https://icecast-vgtrk.cdnvideo.ru/mayakfm_mp3_128kbps">
+        </audio>
+        <button id="playPauseBTN" onclick="playPause()">▷</button>
+    </div>
+    
+    <script src="mayak.js"></script>
 
     <p class="site">
         <a href="https://radiomayak.ru/" target="_blank" style="

@@ -20,7 +20,14 @@
         <img class="img" src="img/7.jpg" alt="Kiss UK" width="600" height="600">
     </div>
 
-    <audio class="audio" src="https://stream-kiss.planetradio.co.uk/kissnational.aac" controls></audio>
+    <div>
+        <audio id="audio">
+            <source src="https://stream-kiss.planetradio.co.uk/kissnational.aac">
+        </audio>
+        <button id="playPauseBTN" onclick="playPause()">▷</button>
+    </div>
+    
+    <script src="kiss-uk.js"></script>
 
     <p class="site">
         <a href="https://planetradio.co.uk/kiss/" target="_blank" style="

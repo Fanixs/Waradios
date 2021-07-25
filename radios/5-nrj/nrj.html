@@ -20,7 +20,14 @@
         <img class="img" src="img/5.jpg" alt="NRJ" width="600" height="600">
     </div>
 
-    <audio class="audio" src="https://pub0302.101.ru:8443/stream/air/aac/64/99" controls></audio>
+    <div>
+        <audio id="audio">
+            <source src="https://pub0302.101.ru:8443/stream/air/aac/64/99">
+        </audio>
+        <button id="playPauseBTN" onclick="playPause()">▷</button>
+    </div>
+    
+    <script src="nrj.js"></script>
 
     <p class="site">
         <a href="https://www.energyfm.ru/" target="_blank" style="
