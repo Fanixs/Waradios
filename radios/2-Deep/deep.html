@@ -20,7 +20,12 @@
         <img class="img" src="img/2.jpg" alt="SOUNDPARK DEEP" width="600" height="600">
     </div>
 
-    <audio class="audio" src="https://r163-172-148-29.relay.radiotoolkit.com:30003/spdeep" controls></audio>
+    <div>
+        <audio id="audio">
+            <source src="https://r163-172-148-29.relay.radiotoolkit.com:30003/spdeep">
+        </audio>
+        <button id="playPauseBTN" onclick="playPause()">▷</button>
+    </div>
 
     <p class="site">
         <a href="https://www.spdeep.com/" target="_blank" style="
