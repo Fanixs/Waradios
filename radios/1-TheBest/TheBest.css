@@ -27,6 +27,7 @@ h1 {
 }
 
 button{
+    font-family: monospace;
     padding: 10px 25px;
 	font-size: 100px;
 	line-height: 60px;
