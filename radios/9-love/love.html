@@ -20,7 +20,14 @@
         <img class="img" src="img/9.jpg" alt="Love Radio" width="600" height="600">
     </div>
 
-    <audio class="audio" src="http://109.194.47.19:8000/loveradio" controls></audio>
+    <div>
+        <audio id="audio">
+            <source src="http://109.194.47.19:8000/loveradio" preload>
+        </audio>
+        <button id="playPauseBTN" onclick="playPause()">▷</button>
+    </div>
+    
+    <script src="love.js"></script>
 
     <p class="site">
         <a href="http://www.loveradio.ru/" target="_blank" style="

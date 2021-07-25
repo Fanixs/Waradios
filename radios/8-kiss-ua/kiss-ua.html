@@ -20,7 +20,14 @@
         <img class="img" src="img/8.jpg" alt="Kiss UA" width="600" height="600">
     </div>
 
-    <audio class="audio" src="https://online.kissfm.ua/KissFM" controls></audio>
+    <div>
+        <audio id="audio">
+            <source src="https://online.kissfm.ua/KissFM" preload>
+        </audio>
+        <button id="playPauseBTN" onclick="playPause()">▷</button>
+    </div>
+    
+    <script src="kiss-ua.js"></script>
 
     <p class="site">
         <a href="https://www.kissfm.ua/" target="_blank" style="
