@@ -29,6 +29,7 @@ h1 {
 button{
 
     padding: 10px 25px;
+    font-family: 'Exotic Icons';
 	font-size: 100px;
 	line-height: 60px;
 	min-width: 300px;
@@ -40,6 +41,9 @@ button{
 	height: 120px;
     margin-top: 200px;
     margin-left: 330px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .site {
