@@ -20,7 +20,14 @@
         <img class="img" src="img/12.jpg" alt="Record Trance-House" width="600" height="600">
     </div>
 
-    <audio class="audio" src="https://air.radiorecord.ru:805/trancehouse_128" controls></audio>
+    <div>
+        <audio id="audio">
+            <source src="https://air.radiorecord.ru:805/trancehouse_128" preload>
+        </audio>
+        <button id="playPauseBTN" onclick="playPause()">▷</button>
+    </div>
+    
+    <script src="record-house.js"></script>
 
     <p class="site">
         <a href="https://www.radiorecord.ru/station/trancehouse" target="_blank" style="

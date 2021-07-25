@@ -20,7 +20,14 @@
         <img class="img" src="img/11.jpg" alt="record" width="600" height="600">
     </div>
 
-    <audio class="audio" src="http://air.radiorecord.ru:8101/rr_128" controls></audio>
+    <div>
+        <audio id="audio">
+            <source src="http://air.radiorecord.ru:8101/rr_128" preload>
+        </audio>
+        <button id="playPauseBTN" onclick="playPause()">▷</button>
+    </div>
+    
+    <script src="record.js"></script>
 
     <p class="site">
         <a href="https://www.radiorecord.ru/" target="_blank" style="

@@ -20,7 +20,14 @@
         <img class="img" src="img/10.jpg" alt="GTI" width="600" height="600">
     </div>
 
-    <audio class="audio" src="https://listen.gtiradio.ru/radiomid" controls preload></audio>
+    <div>
+        <audio id="audio">
+            <source src="https://listen.gtiradio.ru/radiomid" preload>
+        </audio>
+        <button id="playPauseBTN" onclick="playPause()">▷</button>
+    </div>
+    
+    <script src="gti.js"></script>
 
     <p class="site">
         <a href="https://gtiradio.ru/" target="_blank" style="
