@@ -6,7 +6,7 @@ function playPause(){
 	if(count == 0){
 		count = 1;
 		audio.play();
-		playPauseBTN.innerHTML = "⬜";
+		playPauseBTN.innerHTML = "▢";
 	}else{
 		count = 0;
 		audio.pause();
