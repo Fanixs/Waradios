@@ -1,0 +1,21 @@
+{ 
+
+    "name": "Waradios", 
+  
+    "short_name": "Waradios", 
+  
+    "start_url": "http://waradios.gq/", 
+  
+    "display": "standalone", 
+  
+    "icons": [{ 
+  
+      "src": "./icon.jpg", 
+  
+      "sizes": "300x300", 
+  
+      "type": "image/jpg" 
+  
+    }] 
+  
+  }
